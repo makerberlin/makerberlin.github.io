@@ -1,15 +1,21 @@
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="skills">Sie haben die Idee</span>
-                        <hr class="star-light">
-                        <span class="skills">Wir setzen sie um</span>
-                    </div>
-                </div>
-            </div>
+<!-- Header -->
+<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+  <h1><a href="{{ site.baseurl }}/index.html">MAKER BERLIN</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#leistungen">Leistungen</a></li>
+            <li><a href="index.html#werte">Werte</a></li>
+            <li><a href="index.html#contact">Kontakt</a></li>
+            <li><a href="/impressum.html">Impressum</a></li>
+
+          </ul>
         </div>
-    </header>
+      </li>
+    </ul>
+  </nav>
+</header>
