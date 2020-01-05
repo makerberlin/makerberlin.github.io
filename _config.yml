@@ -3,9 +3,9 @@ description: |
   Du hast die Idee, ich baue sie.
 owner: Didi Hoffmann # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
-email: info@makerberlin.de
+email: info@makerberlin.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.makerberlin.de" # the base hostname & protocol for your site
+url: "http://www.makerberlin.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
